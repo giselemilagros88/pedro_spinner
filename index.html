@@ -10,7 +10,7 @@
     </head>
 
     <body>
-       <audio id="miAudio" loop autoplay>
+       <audio id="miAudio" loop autoplay controls>
             <source src="pedro.mp4" type="audio/mp4">
             Tu navegador no soporta la etiqueta de audio.
         </audio>
@@ -22,7 +22,14 @@
             <a href="https://www.linkedin.com/in/gisele-milagros-gonzalez" target="_blank">LinkedIn</a>
             
         </footer>
-       
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var audio = document.getElementById("miAudio");
+               
+                    audio.currentTime = 41; // Establece el punto de inicio en el segundo 41
+            
+            });
+        </script>
     </body>
 
 </html>
