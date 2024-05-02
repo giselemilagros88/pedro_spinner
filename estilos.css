@@ -1,10 +1,14 @@
 body {
     background: #161616;
+    color:white;
+    text-align: center;
     margin: 0;
   
     height: 100dvh;
-    display: grid;
-    place-content: center center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .spinner {
