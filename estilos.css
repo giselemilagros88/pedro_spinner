@@ -4,7 +4,6 @@ body {
     font-size: 10px;
     text-align: center;
     margin: 0;
-  
     height: 100dvh;
     display:flex;
     flex-direction: column;
